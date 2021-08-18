@@ -126,10 +126,11 @@ a {
 }
 
 
-.heading_container {
+header {
     padding: 10px;
     background: var(--white);
     border-radius: 4px;
+    margin: 20px 0;
     -webkit-box-shadow: 0 19px 38px var(--silver), 0 9px 12px var(--silver);
     -moz-box-shadow: 0 19px 38px var(--silver), 0 9px 12px var(--silver);
     box-shadow: 0 19px 38px var(--silver), 0 9px 12px var(--silver);
@@ -141,7 +142,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-.heading_container > span {
+header > span {
     font-family: var(--font-secondary);
 }
 
@@ -165,11 +166,11 @@ h1 {
     font-size: var(--font-size-xs);
 }
 
-.content > div {
+main > div {
     margin: 20px 0;
 }
 
-.information_container > div {
+section > div {
     margin: 20px 0;
     border-radius: 4px;
     background: var(--white);
