@@ -1,0 +1,16 @@
+:root {
+    --font-primary: 'Open Sans', 'Arial', sans-serif;
+    --font-secondary: 'Courier New', 'Arial', cursive;
+
+    --font-weight-bold: 700;
+    --font-weight-semibold: 600;
+    --font-weight-higher-regular: 500;
+    --font-weight-regular: 400;
+
+    --font-size-xs: 13px;
+    --font-size-s: 14px;
+    --font-size-m: 16px;
+    --font-size-l: 18px;
+    --font-size-xl: 20px;
+    --font-size-1xl: 24px;
+}
