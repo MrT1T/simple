@@ -227,3 +227,26 @@ footer > div {
     -webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
     filter: grayscale(40%);
 }
+
+.logo img:hover {
+    -webkit-animation: shake 2s linear alternate infinite;
+    animation: shake 2s linear alternate infinite;
+}
+
+@-webkit-keyframes shake {
+    50% {
+        -webkit-transform: translateX(-100px) scale(1.2) rotateZ(20deg);
+
+    }
+    100% {
+        -webkit-transform: translateX(100px) scale(0.7);
+    }
+}
+@keyframes shake {
+    50% {
+        transform: translateX(-100px) scale(1.2) rotateZ(20deg);
+    }
+    100% {
+        transform: translateX(100px) scale(0.7);
+    }
+}
