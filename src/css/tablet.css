@@ -30,13 +30,14 @@
     }
 
     header {
-        position: relative;
+        display: flex;
+        flex-direction: column;
         min-height: 10em;
+        height: 1em;
+        gap: 20%;
     }
 
     header p {
-        position: absolute;
-        top: 50%;
         text-align: center;
     }
 
