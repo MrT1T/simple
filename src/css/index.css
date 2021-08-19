@@ -133,8 +133,8 @@ header {
     border-radius: 0.25em;
     margin: 1.25em 0;
     -webkit-box-shadow: 0 1.1875em 2.375em var(--silver), 0 0.5625em 0.75em var(--silver);
-    -moz-box-shadow: 0 1.1875em 2.375em var(--silver), 0 0.5625em 0.75em  var(--silver);
-    box-shadow: 0 1.1875em 2.375em var(--silver), 0 0.5625em 0.75em  var(--silver);
+    -moz-box-shadow: 0 1.1875em 2.375em var(--silver), 0 0.5625em 0.75em var(--silver);
+    box-shadow: 0 1.1875em 2.375em var(--silver), 0 0.5625em 0.75em var(--silver);
 }
 
 h1 {
@@ -172,9 +172,9 @@ section > div {
     margin: 1.25em 0;
     border-radius: 0.25em;
     background: var(--white);
-    -webkit-box-shadow: 0 1.1875em 2.375em var(--silver), 0 0.5625em 0.75em  var(--silver);
-    -moz-box-shadow: 0 1.1875em 2.375em var(--silver), 0 0.5625em 0.75em  var(--silver);
-    box-shadow: 0 1.1875em 2.375em var(--silver), 0 0.5625em 0.75em  var(--silver);
+    -webkit-box-shadow: 0 1.1875em 2.375em var(--silver), 0 0.5625em 0.75em var(--silver);
+    -moz-box-shadow: 0 1.1875em 2.375em var(--silver), 0 0.5625em 0.75em var(--silver);
+    box-shadow: 0 1.1875em 2.375em var(--silver), 0 0.5625em 0.75em var(--silver);
 }
 
 h2 {
@@ -242,6 +242,7 @@ footer > div {
         -webkit-transform: translateX(6.25em) scale(0.7);
     }
 }
+
 @keyframes shake {
     50% {
         transform: translateX(-6.25em) scale(1.2) rotateZ(20deg);
