@@ -55,11 +55,7 @@
         flex-grow: 1;
     }
 
-    .email {
-        font-size: var(--font-size-s);
-    }
-
-    .subscribe_button {
+    .email_container > * {
         font-size: var(--font-size-s);
     }
 
@@ -72,7 +68,7 @@
 
     section > div {
         margin: 0;
-        max-width: 21em;
+        max-width: 19em;
     }
 
     footer {

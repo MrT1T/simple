@@ -1,0 +1,56 @@
+@media screen and (min-width: 1024px) {
+
+    nav {
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-end;
+        gap: 3em;
+    }
+
+    .navBar_item {
+        border-right: none;
+        font-size: var(--font-size-xl);
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .navBar_item a {
+        text-decoration: none;
+        color: var(--jack-black);
+    }
+
+    .navBar_item img {
+        display: inline-block;
+        width: 2.63em;
+        height: 2.63em;
+        margin-right: 1em;
+    }
+
+    header {
+        min-height: 15em;
+        margin: 1.25em 0 2em;
+    }
+
+    h1 {
+        margin: 1em;
+    }
+
+    subscribe {
+        justify-content: flex-end;
+    }
+
+    subscribe label {
+        line-height: 1.6em;
+    }
+
+    .email_container {
+        flex-grow: 0;
+    }
+
+    .email_container > * {
+        font-size: var(--font-size-m);
+        padding: 0.1em 0.5em;
+    }
+
+}
