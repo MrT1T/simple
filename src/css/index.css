@@ -31,7 +31,7 @@ html, body {
     height: 100%;
     width: 100%;
     line-height: 1;
-    font-size: var(--font-size-s);
+    font-size: var(--font-size-m);
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -83,7 +83,7 @@ body {
 }
 
 .wrapper {
-    padding: 20px 30px;
+    padding: 1.25em 1.875em;
 }
 
 .navBar {
@@ -92,14 +92,14 @@ body {
 }
 
 .logo {
-    margin-top: 20px;
+    margin-top: 1.25em;
     display: flex;
     justify-content: center;
 }
 
 .logo img {
-    width: 80px;
-    height: 80px;
+    width: 5em;
+    height: 5em;
 }
 
 nav {
@@ -108,8 +108,9 @@ nav {
 }
 
 .navBar_item {
-    padding: 0 3px;
-    border-right: 1px solid var(--silver);
+    padding: 0 0.1875em;
+    border-right: 0.0625em solid var(--silver);
+    font-size: var(--font-size-s);
 }
 
 .navBar_item:last-of-type {
@@ -127,83 +128,82 @@ a {
 
 
 header {
-    padding: 10px;
+    padding: 0.625em;
     background: var(--white);
-    border-radius: 4px;
-    margin: 20px 0;
-    -webkit-box-shadow: 0 19px 38px var(--silver), 0 9px 12px var(--silver);
-    -moz-box-shadow: 0 19px 38px var(--silver), 0 9px 12px var(--silver);
-    box-shadow: 0 19px 38px var(--silver), 0 9px 12px var(--silver);
+    border-radius: 0.25em;
+    margin: 1.25em 0;
+    -webkit-box-shadow: 0 1.1875em 2.375em var(--silver), 0 0.5625em 0.75em var(--silver);
+    -moz-box-shadow: 0 1.1875em 2.375em var(--silver), 0 0.5625em 0.75em  var(--silver);
+    box-shadow: 0 1.1875em 2.375em var(--silver), 0 0.5625em 0.75em  var(--silver);
 }
 
 h1 {
     font-weight: var(--font-weight-higher-regular);
     font-size: var(--font-size-1xl);
-    margin-bottom: 10px;
+    margin-bottom: 0.416666667em;
 }
 
 header > span {
+    font-size: var(--font-size-s);
     font-family: var(--font-secondary);
 }
 
 .email_container {
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 0.625em;
 }
 
 .email {
-    border: 2px solid var(--silver);
-    border-radius: 4px 0 0 4px;
+    border: 0.153846154em solid var(--silver);
+    border-radius: 0.25em 0 0 0.25em;
     flex-basis: 65%;
     font-size: var(--font-size-xs);
 }
 
 .subscribe {
-    border: 2px solid var(--silver);
+    border: 0.153846154em solid var(--silver);
     flex-basis: 35%;
-    border-radius: 0 4px 4px 0;
+    border-radius: 0 0.25em 0.25em 0;
     font-size: var(--font-size-xs);
 }
 
-main > div {
-    margin: 20px 0;
-}
-
 section > div {
-    margin: 20px 0;
-    border-radius: 4px;
+    margin: 1.25em 0;
+    border-radius: 0.25em;
     background: var(--white);
-    -webkit-box-shadow: 0 19px 38px var(--silver), 0 9px 12px var(--silver);
-    -moz-box-shadow: 0 19px 38px var(--silver), 0 9px 12px var(--silver);
-    box-shadow: 0 19px 38px var(--silver), 0 9px 12px var(--silver);
+    -webkit-box-shadow: 0 1.1875em 2.375em var(--silver), 0 0.5625em 0.75em  var(--silver);
+    -moz-box-shadow: 0 1.1875em 2.375em var(--silver), 0 0.5625em 0.75em  var(--silver);
+    box-shadow: 0 1.1875em 2.375em var(--silver), 0 0.5625em 0.75em  var(--silver);
 }
 
 h2 {
     font-size: var(--font-size-xl);
-    margin-bottom: 10px;
+    margin-bottom: 0.5em;
 }
 
 .information_block {
-    padding: 10px;
+    padding: 0.625em;
 }
 
 .information_block span {
     font-family: var(--font-secondary);
+    font-size: var(--font-size-s);
 }
 
 footer {
-    border-top: 1px solid var(--silver);
+    border-top: 0.0625em solid var(--silver);
 }
 
 footer > div {
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 .service_linc > a {
     display: inline-block;
-    padding-right: 4px;
-    border-right: 1px solid var(--silver);
+    padding-right: 0.25em;
+    border-right: 0.0625em solid var(--silver);
+    font-size: var(--font-size-s);
 }
 
 .service_linc a:last-of-type {
@@ -211,7 +211,7 @@ footer > div {
 }
 
 .license {
-    margin-top: 10px;
+    margin-top: 0.625em;
     font-size: var(--font-size-xs);
 }
 
@@ -221,9 +221,9 @@ footer > div {
 }
 
 .social img {
-    margin-left: 10px;
-    width: 20px;
-    height: 20px;
+    margin-left: 0.625em;
+    width: 1.25em;
+    height: 1.25em;
     -webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
     filter: grayscale(40%);
 }
@@ -235,18 +235,18 @@ footer > div {
 
 @-webkit-keyframes shake {
     50% {
-        -webkit-transform: translateX(-100px) scale(1.2) rotateZ(20deg);
+        -webkit-transform: translateX(-6.25em) scale(1.2) rotateZ(20deg);
 
     }
     100% {
-        -webkit-transform: translateX(100px) scale(0.7);
+        -webkit-transform: translateX(6.25em) scale(0.7);
     }
 }
 @keyframes shake {
     50% {
-        transform: translateX(-100px) scale(1.2) rotateZ(20deg);
+        transform: translateX(-6.25em) scale(1.2) rotateZ(20deg);
     }
     100% {
-        transform: translateX(100px) scale(0.7);
+        transform: translateX(6.25em) scale(0.7);
     }
 }
