@@ -1,0 +1,88 @@
+
+@media screen and (min-width: 768px) {
+
+    .navBar {
+        display: flex;
+        flex-direction: row;
+        gap: 2.5em;
+        align-items: center;
+    }
+
+    .logo {
+        margin-top: 0;
+    }
+
+    .logo img {
+        width: 6em;
+        height: 6em;
+    }
+
+    @-webkit-keyframes shake {
+        100% {
+            -webkit-transform: translateX(100%) scale(1.2) rotateZ(20deg);
+        }
+    }
+
+    @keyframes shake {
+        100% {
+            transform: translateX(100%) scale(1.2) rotateZ(20deg);
+        }
+    }
+
+    header {
+        position: relative;
+        min-height: 10em;
+    }
+
+    header p {
+        position: absolute;
+        top: 50%;
+        text-align: center;
+    }
+
+    subscribe {
+        display: flex;
+        gap: 0.4em;
+    }
+
+    subscribe label {
+        line-height: 1.25em;
+        text-align: center;
+    }
+
+    .email_container {
+        margin-top: 0;
+        flex-grow: 1;
+    }
+
+    .email {
+        font-size: var(--font-size-s);
+    }
+
+    .subscribe_button {
+        font-size: var(--font-size-s);
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5em;
+        margin: 3em 0 2em;
+    }
+
+    section > div {
+        margin: 0;
+        max-width: 21em;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .social img {
+        width: 2em;
+        height: 2em;
+        margin-left: 1em;
+    }
+}
