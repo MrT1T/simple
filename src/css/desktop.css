@@ -2,7 +2,7 @@
 
     .wrapper {
         grid-template-columns: 12.5em 1fr;
-        grid-template-rows: 1fr 2fr 5em;
+        grid-template-rows: 17em 1fr 5em;
     }
 
     .navBar {
