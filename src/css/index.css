@@ -134,10 +134,10 @@ header {
     padding: 0.63em;
     background: var(--white);
     border-radius: 0.25em;
-    margin: 1.25em 0;
-    -webkit-box-shadow: 0 1.19em 2.4em var(--silver), 0 0.56em 0.75em var(--silver);
-    -moz-box-shadow: 0 1.19em 2.4em var(--silver), 0 0.56em 0.75em var(--silver);
-    box-shadow: 0 1.19em 2.4em var(--silver), 0 0.56em 0.75em var(--silver);
+    margin: 1.25em 0 2em;
+    -webkit-box-shadow: 0 0.56em 2.4em var(--silver), 0 0.38em 0.75em var(--silver);
+    -moz-box-shadow: 0 0.56em 2.4em var(--silver), 0 0.38em 0.75em var(--silver);
+    box-shadow: 0 0.56em 2.4em var(--silver), 0 0.38em 0.75em var(--silver);
 }
 
 h1 {
@@ -175,9 +175,9 @@ section > div {
     margin: 1.25em 0;
     border-radius: 0.25em;
     background: var(--white);
-    -webkit-box-shadow: 0 1.19em 2.4em var(--silver), 0 0.56em 0.75em var(--silver);
-    -moz-box-shadow: 0 1.19em 2.4em var(--silver), 0 0.56em 0.75em var(--silver);
-    box-shadow: 0 1.19em 2.4em var(--silver), 0 0.56em 0.75em var(--silver);
+    -webkit-box-shadow: 0 0.56em 2.4em var(--silver), 0 0.38em 0.75em var(--silver);
+    -moz-box-shadow: 0 0.56em 2.4em var(--silver), 0 0.38em 0.75em var(--silver);
+    box-shadow: 0 0.56em 2.4em var(--silver), 0 0.38em 0.75em var(--silver);
 }
 
 h2 {
