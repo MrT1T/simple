@@ -1,22 +1,67 @@
 @media screen and (min-width: 1440px) {
 
     .wrapper {
+        -ms-grid-columns: 12.5em 1fr;
         grid-template-columns: 12.5em 1fr;
+        -ms-grid-rows: 17em 1fr 5em;
         grid-template-rows: 17em 1fr 5em;
     }
 
+    .wrapper > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+
+    .wrapper > *:nth-child(2) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 2;
+    }
+
+    .wrapper > *:nth-child(3) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+
+    .wrapper > *:nth-child(4) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 2;
+    }
+
+    .wrapper > *:nth-child(5) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+
+    .wrapper > *:nth-child(6) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 2;
+    }
+
     .navBar {
+        -ms-grid-column-span: 2;
         grid-column-end: 2;
+        -ms-grid-row: 1;
         grid-row-start: 1;
+        -ms-grid-row-span: 2;
         grid-row-end: 3;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
         align-items: flex-start;
         border-right: 0.06em solid var(--silver);
         padding-left: 1em;
     }
 
     nav {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
         justify-content: flex-start;
     }
 
@@ -36,23 +81,32 @@
     }
 
     header {
+        -ms-grid-column: 2;
         grid-column-start: 2;
+        -ms-grid-row: 1;
         grid-row-start: 1;
+        -ms-grid-row-span: 1;
         grid-row-end: 2;
         margin-left: 2em;
         margin-top: 0;
     }
 
     main {
+        -ms-grid-column: 2;
         grid-column-start: 2;
+        -ms-grid-row: 2;
         grid-row-start: 2;
+        -ms-grid-row-span: 1;
         grid-row-end: 3;
         margin-left: 2em;
     }
 
     footer {
+        -ms-grid-column: 1;
         grid-column-start: 1;
+        -ms-grid-column-span: 2;
         grid-column-end: 3;
+        -ms-grid-row: 3;
         grid-row-start: 3;
     }
 }
